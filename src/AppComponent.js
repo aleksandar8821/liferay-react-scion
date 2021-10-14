@@ -72,6 +72,10 @@ export default class extends React.Component {
 	render() {
 		return (
             <div>
+
+<script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+
+
 				<div>
         	        <span className="tag">Portlet Namespace:</span> 
 					<span className="value">{this.props.portletNamespace}</span>
