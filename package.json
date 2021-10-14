@@ -28,10 +28,9 @@
 		"popper.js": "^1.16.1",
 		"rxjs": "^6.5.5"
 	},
-
 	"browserslist": [
 		"last 2 Chrome versions"
-	  ],
+	],
 	"scripts": {
 		"build": "babel --source-maps -d build src && npm run copy-assets && liferay-npm-bundler",
 		"copy-assets": "lnbs-copy-assets",
